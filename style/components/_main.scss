@@ -1,0 +1,38 @@
+main {
+    background-image: url(../../img/plus-size-skin-care-tips.jpg);
+    background-position: center right -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    height: 60vh;
+    color: white;
+    p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+    
+    a {
+        font-size: 1.5rem;
+        padding: 1.2rem 3rem;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        background-position: right;
+    }
+}
